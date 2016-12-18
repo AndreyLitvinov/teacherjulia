@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "lib": [ "es6", "dom" ],
+    "types": [ "node" ]
+  },
+  "exclude": ["node_modules"],
+  "atom": { "rewriteTsconfig": false }
+}

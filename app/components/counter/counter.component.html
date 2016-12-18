@@ -1,0 +1,8 @@
+<h2>Counter</h2>
+
+<p>This is a simple example of an Angular 2 component. Edit1</p>
+
+<p>Current count: <strong>{{ currentCount }}</strong></p>
+
+<button (click)="incrementCounter()" [style.color]="currentCount % 2 == 1 ? 'red': 'green'">Increment</button>
+<div (mouseover)="incrementCounter()">hover me</div>
